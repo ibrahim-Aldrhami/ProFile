@@ -1,26 +1,27 @@
 #github:hover{
- box-shadow: 1px 1px 25px #ffa200;
- text-underline-offset: 2px red;
+ box-shadow: 1px 1px 25px #F39F5A;
+
 
 }
 #cv:hover{
- box-shadow: 1px 1px 25px #ffa200;
+ box-shadow: 1px 1px 25px #F39F5A;
 
 }
 #linkedin:hover{
-    box-shadow: 1px 1px 25px #ffa200;
+    box-shadow: 1px 1px 25px #F39F5A;
    
    }
    #gmail:hover{
-    box-shadow: 1px 1px 25px #ffa200;
-    text-decoration: #ffa200 underline !important ;
+    box-shadow: 1px 1px 25px #F39F5A;
+   
 
    
    }
+
 
 p:hover{
 color:rgb(253, 253, 253)  !important;
 
-text-decoration: #ffa200 underline ;
-text-underline-offset: 2px;
+text-decoration: #F39F5A underline ;
+
 }
