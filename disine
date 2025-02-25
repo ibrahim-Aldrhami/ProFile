@@ -1,0 +1,34 @@
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>profile</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    
+    <body class="d-flex justify-content-center align-items-center min-vh-100  ">
+        <div class="container">
+        <div class="card bg-secondary rounded-3 border-0 p-2 ">
+            <div class="card-body  ">
+                <h5 class="card-title text-light">IBRAHIM AHMED ALDRHAMI</h5>
+                
+                    <p class="card-text text-light mt-3">I am a graduate of UMM AL QURA university specialty computer science. </p>
+                    <p class="card-text text-light">I am passionate about website programming. </p>
+    
+                    <div class="card-body text-center mt-3 ">
+                        <a  class="card-link text-light " target="_blank" href="cv/NEW.pdf">CV</a>
+                        <a class="card-link text-light"target="_blank" href="https://www.linkedin.com/in/ibrahim-aldrhami-050a34272/">LINKEDIN</a>
+                        <a class="card-link text-light" target="_blank" href="https://github.com/ibrahim-Aldrhami">GIT HUB</a>
+                        <a class="card-link text-light" target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=new">GMAIL</a>
+                    </div>
+    
+            </div>
+        </div>
+    </div>
+    </body>
+    
+    </html>
