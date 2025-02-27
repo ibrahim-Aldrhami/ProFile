@@ -1,0 +1,96 @@
+
+
+.CV{
+    color: rgb(156, 147, 147);
+    text-underline-offset: none;
+    font-size: 1.8em;
+    text-decoration: none;
+
+}
+.CV:hover{
+color: #ffffff;
+    text-decoration:underline;
+    text-underline-offset: 0.7em;
+    
+}
+.CV:focus{
+    color: #ffffff;
+    text-decoration:underline;
+    text-underline-offset: 0.7em;
+    
+    }
+.fa-linkedin{
+    color: rgb(114, 114, 114);
+    font-size: 1.8em;
+    text-decoration: none;
+    
+}
+
+.fa-linkedin:hover{
+    color:blue;
+        text-underline-offset: 0.7em;
+    text-decoration:underline;
+    transition: calc(20px);
+}
+
+.fa-linkedin:focus{
+    color:blue;
+    text-underline-offset: 0.7em;
+    text-decoration:underline;
+    transition: calc(20px);
+}
+
+.fa-github{
+    color: rgb(114, 114, 114);
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.fa-github:hover{
+    color: rgb(0, 0, 0);
+    text-underline-offset: 0.7em;
+    text-decoration:underline;
+
+}
+
+.fa-github:focus{
+    color: rgb(0, 0, 0);
+    text-underline-offset: 0.7em;
+    text-decoration:underline;
+
+}
+
+.fa-envelope{
+    color: rgb(139, 134, 134);
+    font-size: 1.8em;
+    /* border-radius: 100%; */
+/* background-color: rgb(139, 134, 134); */
+    text-decoration: none;
+}
+
+.fa-envelope:hover{
+    color: rgb(126, 33, 33);
+    /* background-color: white; */
+    /* border-radius: 100%; */
+    text-underline-offset: 0.7em;
+    text-decoration:underline;
+
+}
+
+.fa-envelope:focus{
+    color: rgb(126, 33, 33);
+    text-underline-offset: 0.7em;
+    text-decoration:underline;
+
+}
+
+.circle-icon {
+    background: #dddbdb;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 10px;
+}
