@@ -5,19 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>profile</title>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/flat-preloader-public.css">
 </head>
-<!-- 17153B -->
 
 <body class="d-flex justify-content-center align-items-center min-vh-100  " style="background-color: #1A1A1D">
+    <div class="wp-preloading-wrapper " id="flat-preloader-overlay" >
+        <img src="img/ios-glyph/circles-menu-1.gif" alt="">
+    </div>
+       
+    
     <div class="container">
-        <div class="card  text-center border-0 rounded-4  " style="background-color: #697565">
+        <div class="card  text-center border-0 rounded-4  " style="background-color: #1A1A1D">
+           
             <div id="card-body" class="card-body  ">
-                <h3 class="card-title  "
+              
+                <h2 class="card-text fw-bold "
                     style="background: linear-gradient(100deg, #ECDFCC, #F39F5A, #ECDFCC    );-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;display: inline-block; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-                    IBRAHIM AHMED ALDRHAMI</h3>
+                    IBRAHIM AHMED ALDRHAMI</h2>
                 <p class="card-text  mt-3   link-offset-2 " style="color: #ecd6b5;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; "> specialty computer science</p>
                 <p class="card-text link-offset-2  " style="color: #d3c7b5;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">I am passionate about | website programming
                     | diesign </p>
@@ -31,7 +39,17 @@
 
         </div>
     </div>
-    <script src="https://kit.fontawesome.com/6ecf22eae5.js" crossorigin="anonymous"></script>
+    <script src="js/flat-preloader.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(function() {
+                var preloader = document.getElementById("flat-preloader-overlay");
+                if (preloader) {
+                    preloader.classList.add("hide"); 
+                }
+            }, 2000);
+        });
+    </script>
 </body>
 
 </html>
