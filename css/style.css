@@ -136,10 +136,10 @@ color: #ffffff;
     opacity: 0.8;
     
 }
-.style_card::after{
+/* .style_card::after{
     filter: blur(0.5rem);
     opacity: 0.8;
-}
+} */
 @keyframes spin {
   
     from{
